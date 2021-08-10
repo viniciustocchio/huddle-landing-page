@@ -32,6 +32,39 @@ body {
     margin: 0 auto;
 }
 
+.right-box {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    width: 40%; 
+}
+
+.right-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 2em;
+    width: 70%;
+}
+
+.right-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 1em;
+    width: 85%;
+}
+
+.right-box button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: aliceblue;
+    color: hsl(257, 40%, 49%);
+    font-size: 1em;
+    width: 35%;
+    border-radius: 30px;
+    padding: 15px 0;
+}
 
 
 
