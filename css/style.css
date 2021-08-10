@@ -15,12 +15,14 @@
 body {
     background: hsl(257, 40%, 49%);
     background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
-    margin: auto;
+    max-width: 1440px;
+    margin: auto;  
 }
 
 .main-container {
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -32,15 +34,25 @@ body {
 
 .flex-container {
     display: flex;
-    width: 90%;
     margin: 0 auto;
+}
+
+.left-box {
+    width: 60%;
+    margin-right: 50px;
+}
+
+.left-box img {
+    width: 100%;
+    height: auto;
 }
 
 .right-box {
     display: flex;
     flex-flow: column wrap;
-    margin: 50px auto;
-    width: 38%; 
+    margin: 40px auto;
+    width: 40%;
+    height: auto; 
 }
 
 .right-box h1 {
@@ -48,13 +60,13 @@ body {
     font-weight: 400;
     color: aliceblue;
     font-size: 2em;
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
 .right-box p {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: aliceblue;
     font-size: 1em;
     width: 90%;
@@ -69,9 +81,9 @@ body {
     color: hsl(276, 40%, 49%);
     font-size: 1em;
     width: 35%;
-    border-radius: 30px;
+    border-radius: 30px;;
     padding: 12px 0;
-    box-shadow: 2px 2px 5px 1px hsla(258, 41%, 24%, 0.493);
+    box-shadow: 2px 3px 7px 1px hsla(258, 41%, 24%, 0.493);
 }
 
 .right-box button:hover {
@@ -102,9 +114,5 @@ body {
 .bottom-logos i:hover {
     color: hsl(300, 69%, 71%);
     cursor: pointer;
-}
-
-footer {
-    margin-top: 10px;
 }
 
