@@ -6,5 +6,5 @@ This is a challange from the site Frontend Mentor, and the proposal is to compos
 
 This exercise was a great HTML and CSS training and helped me to better understand the application of Flexbox which makes layout positioning much easier.
 
-<img alt="gif" src="/images/huddle-gig.mp4">
+<video alt="gif" src="/images/huddle-gig.mp4">
 
