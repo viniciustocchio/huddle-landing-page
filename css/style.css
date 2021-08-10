@@ -13,9 +13,13 @@
 }
 
 body {
+    background: hsl(257, 40%, 49%);
+}
+
+.main-container {
     width: 1440px;
     height: 800px;
-    background: hsl(257, 40%, 49%);
+    margin: 0 auto;
     background-image: url(/images/bg-desktop.svg);
     background-repeat: no-repeat;
 }
@@ -83,7 +87,6 @@ body {
     text-align: center;
     justify-content: flex-end;
     width: 92%;
-
 }
 
 .bottom-logos i {
@@ -101,9 +104,7 @@ body {
     cursor: pointer;
 }
 
-
-
 footer {
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
