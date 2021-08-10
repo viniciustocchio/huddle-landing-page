@@ -35,8 +35,8 @@ body {
 .right-box {
     display: flex;
     flex-flow: column wrap;
-    margin: 0 auto;
-    width: 40%; 
+    margin: 50px auto;
+    width: 38%; 
 }
 
 .right-box h1 {
@@ -45,6 +45,7 @@ body {
     color: aliceblue;
     font-size: 2em;
     width: 70%;
+    margin-bottom: 30px;
 }
 
 .right-box p {
@@ -52,21 +53,53 @@ body {
     font-weight: 300;
     color: aliceblue;
     font-size: 1em;
-    width: 85%;
+    width: 90%;
+    margin-bottom: 30px;
+    line-height: 26px;
 }
 
 .right-box button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background: aliceblue;
-    color: hsl(257, 40%, 49%);
+    color: hsl(276, 40%, 49%);
     font-size: 1em;
     width: 35%;
     border-radius: 30px;
-    padding: 15px 0;
+    padding: 12px 0;
+    box-shadow: 2px 2px 5px 1px hsla(258, 41%, 24%, 0.493);
 }
 
+.right-box button:hover {
+    background: hsl(300, 69%, 71%);
+    color:aliceblue;
+    cursor: pointer;
+}
 
+.bottom-logos {
+    display: flex;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: flex-end;
+    width: 92%;
+
+}
+
+.bottom-logos i {
+    padding: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.bottom-logos i:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
 
 
 
