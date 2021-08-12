@@ -117,3 +117,75 @@ body {
 
 /* mobile */
 
+@media(max-width: 768px) {
+    body {
+        background-image: url("../images/bg-mobile.svg");
+        background-size: 100%;
+        background-attachment:fixed;
+    }
+
+    .header-logo {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px 0 50px 0;
+    }
+
+    .header-logo img {
+        width: 50%;
+    }
+
+    .main-container {
+        width: 80%;
+    }
+  
+    .flex-container {
+        width: 100%;
+		flex-direction: column;
+	}
+
+    .left-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .right-box {
+        width: 100%;
+        margin: 70px 0;
+    }
+
+    .right-box h1 {
+        width: 100%;
+        text-align: center;
+        justify-content: space-between;
+        font-size: 1.6em;
+        font-weight: 500;
+        line-height: 1.5em;
+    }
+
+    .right-box p {
+        width: 100%;
+        text-align: center;
+        justify-content: space-between;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+
+    .right-box button {
+        margin: 0 auto;
+        width: 80%;
+    } 
+    
+    .bottom-logos {
+        width: 100%;
+        margin: 10px auto 50px;
+        justify-content: center;
+    }
+
+    .bottom-logos i {
+        margin: 0 8px 0 8px;
+        font-size: 1em;
+        border-width: 1px;
+        justify-items: center;
+    }    
+}
