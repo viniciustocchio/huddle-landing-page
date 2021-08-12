@@ -11,14 +11,8 @@ body {
     background-image: url("../images/bg-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1440px;
-    margin: auto;  
-}
-
-.main-container {
-    width: 90%;
-    margin: 0 auto;
-    
+    max-width: 1440px; 
+    margin: auto; 
 }
 
 .header-logo {
@@ -27,13 +21,20 @@ body {
     padding: 50px 0 70px 0;
 }
 
+.main-container {
+    width: 90%;
+    margin: auto;  
+}
+
 .flex-container {
     display: flex;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
 }
 
 .left-box {
     width: 60%;
+    margin: auto;
     margin-right: 50px;
 }
 
@@ -45,9 +46,8 @@ body {
 .right-box {
     display: flex;
     flex-flow: column wrap;
-    margin: 40px auto;
+    margin: 50px auto;
     width: 40%;
-    height: auto; 
 }
 
 .right-box h1 {
@@ -93,7 +93,7 @@ body {
     font-size: 1.2em;
     text-align: center;
     justify-content: flex-end;
-    width: 100%;
+    width: 90%;
 }
 
 .bottom-logos i {
@@ -114,4 +114,6 @@ body {
 .footer {
     flex-shrink: 0;
 }
+
+/* mobile */
 
