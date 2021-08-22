@@ -1,18 +1,10 @@
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 body {
     background: hsl(257, 40%, 49%);
     background-image: url("../images/bg-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1440px; 
-    margin: auto; 
+    margin: 0 auto; 
 }
 
 .header-logo {
@@ -112,7 +104,15 @@ body {
 }
 
 .footer {
-    flex-shrink: 0;
+    margin-top: 75px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
 /* mobile */
