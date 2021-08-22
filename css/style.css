@@ -86,6 +86,7 @@ body {
     text-align: center;
     justify-content: flex-end;
     width: 90%;
+    padding: 2em 1em;
 }
 
 .bottom-logos i {
@@ -103,12 +104,13 @@ body {
     cursor: pointer;
 }
 
-.footer {
-    margin-top: 75px;
+footer {
+    margin-top: auto;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: center;
+    margin-top: auto; 
 }
 
 .attribution a { 
