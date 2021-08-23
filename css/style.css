@@ -68,7 +68,8 @@ body {
     color: hsl(276, 40%, 49%);
     font-size: 1em;
     width: 35%;
-    border-radius: 30px;;
+    border-radius: 30px;
+    border: none;
     padding: 12px 0;
     box-shadow: 2px 3px 7px 1px hsla(258, 41%, 24%, 0.493);
 }
@@ -79,7 +80,7 @@ body {
     cursor: pointer;
 }
 
-.bottom-logos {
+.botton-logos {
     display: flex;
     color: aliceblue;
     font-size: 1.2em;
@@ -89,7 +90,7 @@ body {
     padding: 2em 1em;
 }
 
-.bottom-logos i {
+.botton-logos i {
     padding: 8px;
     border-style: solid;
     border-width: 2px;
@@ -99,7 +100,7 @@ body {
     margin-left: 20px;
 }
 
-.bottom-logos i:hover {
+.botton-logos i:hover {
     color: hsl(300, 69%, 71%);
     cursor: pointer;
 }
